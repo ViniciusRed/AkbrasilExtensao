@@ -1,0 +1,23 @@
+{
+	"name": "CS Brasil Competitive",
+	"version": "1.0",
+	"description": "Mostra quantos players estao no servidor e mostra seu status.",
+	"author": "ViniciusRed",
+	"icons": { "48": "icon.png" },
+	"browser_action":{
+		"default_title": "Brasil Competitive",
+		"default_popup": "popup.html",
+		"default_icon": "icon.png"
+	},
+	"permissions": [
+		  "storage"
+        ],
+	"content_scripts": [
+    {
+        "matches": ["http://189.35.250.225:8080/*", "https://189.35.250.225:8080/*"],
+        "css": ["content.css"],
+        "js": ["content.js"]
+    }
+],
+	"manifest_version": 2
+}

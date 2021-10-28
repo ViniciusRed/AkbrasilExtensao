@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CS Source Server">
+    <meta property="og:description" content="CS Source Server">
+    <meta name="author" content="https//vk.com/M0st1ce">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>CS Brasil Competitive</title>
+    <meta property="og:title" content="CS Brasil Competitive">
+    <meta property="og:image" content="//189.35.250.225:8080/storage/cache/img/global/bar_logo.jpg">
+    <link rel="image_src" href="//189.35.250.225:8080/storage/cache/img/global/bar_logo.jpg">
+    <meta name="twitter:image" content="//189.35.250.225:8080/storage/cache/img/global/bar_logo.jpg">
+    <link rel="stylesheet" type="text/css" href="//189.35.250.225:8080/storage/assets/css/themes/mainstream_white/style.css">
+    <link rel="stylesheet" type="text/css" href="//189.35.250.225:8080/storage/assets/css/themes/mainstream_white/css_library/form_border/1.css">
+    <link rel="stylesheet" type="text/css" href="//189.35.250.225:8080/storage/assets/css/themes/mainstream_white/css_library/badge_type/1.css">
+    <link rel="stylesheet" type="text/css" href="//189.35.250.225:8080/storage/assets/css/themes/mainstream_white/css_library/animations/1.css">
+    <link rel="stylesheet" type="text/css" href="//189.35.250.225:8080/app/modules/module_block_main_stats/assets/css/2.css">
+      <link rel="stylesheet" type="text/css" href="//E:\Akbrasil extensão/1.css">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <style>
+:root{
+  --bg-color: #2b2b2b;
+  --navbar-color: #121212;
+  --sidebar-color: #1f1f1f;
+  --sidebar-gradient-1: #ffd968;
+  --sidebar-gradient-2: #ff6262;
+  --item-color: #fff;
+  --default-text-color: #fff;
+  --top-text-color: #737373;
+  --default-text-color-invert: #111;
+  --hover: #262626;
+  --table-line: #515151;
+  --svg: 100;
+  --font-weight-0: 400;
+  --font-weight-1: 500;
+  --font-weight-2: 500;
+  --font-weight-3: 600;
+  --font-weight-4: 700;
+  --span-color: #F27B26;
+  --span-color-addit: #FA9546;
+  --span-color-back: #b34b01c9;
+  --server-graph-rgba: 255, 117, 0, 0.9
+} body { background-image: url(./storage/cache/img/global/backgrounds/black_texture.jpg)} .container-fluid{max-width:1920px} .logo-area img {left:-8px} .main-sidebar { background-color: rgba(0, 0, 0, 0.5);backdrop-filter: blur(4px)}
+                    .sidebar-menu li:hover {background-color: rgba(0, 0, 0, 0.6)}
+                    .table-active {background-color: rgba(0, 0, 0, 1)}.card { background-color: rgba(0, 0, 0, 0.5);backdrop-filter: blur(7px)}
+                    .table th {border-bottom: 0px solid var(--hover)}
+                    .table-hover tbody tr:hover {background-color: rgba(0, 0, 0, 0.6)}
+                    .input-form .input_text {color: var(--default-text-color)}
+                    .input-form .border-checkbox-label {color: var(--default-text-color)}
+                    .sidebar-right {background-color: rgba(0, 0, 0, 0.5);backdrop-filter: blur(7px)}.sidebar-collapse .user-sidebar-block { height: 88px;} </style>
+    <script>var avatar=[];var servers=[];var profile;</script>
+</head>
+<body ><aside class="main-sidebar offcanvas">
+    <section class="sidebar">
+        <div class="user-sidebar-block">
+            <div class="user-info">
+                <a href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:545146686&search=1">
+                                        <img id="STEAM_0:0:545146686" ondrag="return false" ondragstart="return false" src="storage/cache/img/avatars_random/4.jpg"></a>
+                <div class="user-details">
+                    <span class="user_name">QuemSouEu?</span>
+                                            <span class="user_text">Visto última vez: 05-04-2021</span><span class="_logout"><a href="//189.35.250.225:8080//?auth=logout"><i class="zmdi zmdi-mail-reply-all invert"></i></a></span>
+                                                            </div>
+            </div>
+                            <div class="rank-info">
+                    <li class="rank-mini-li"><a href="javascript:void(0);" onclick="action_treeview()" >
+                            <div class="user-rank tooltip-js" data-tooltip-js="srv-0">
+                                <div class="rank_img"><img src="//189.35.250.225:8080//storage/cache/img/ranks/default/2.png"></div>
+                                <div class="rank-details">
+                                    Prata 2                                </div>
+                                                            </div>
+                        </a>
+                        <ul class="treeview-menu">
+                                                    </ul>
+                    </li>
+                </div>
+                    </div>
+        <ul class="sidebar-menu">
+            <li class="tooltip-js" data-tooltip-js="home">
+                <a href="?page=home" class="table-active">
+                    <div class="sidebar-icon">
+                        <i class="zmdi zmdi-home zmdi-hc-fw"></i>                    </div>
+                    <div class="item-name">
+                        Página Inicial                    </div>
+                </a>
+            </li>
+            																																		<li class="tooltip-js" data-tooltip-js="0-0">
+                        <a href="https://discord.gg/ehg7DxAZqm"                             target="_blank">
+                            <div class="sidebar-icon">
+                                <img src="storage/cache/img/icons/custom/socials/discord.svg" class=svg>                            </div>
+                            <div class="item-name">
+                            Discord                            </div>
+                        </a>
+                    </li>
+					                																																		<li class="tooltip-js" data-tooltip-js="1-0">
+                        <a href="?page=toppoints"                             >
+                            <div class="sidebar-icon">
+                                <i class="zmdi zmdi-accounts-alt zmdi-hc-fw"></i>                            </div>
+                            <div class="item-name">
+                            Estatísticas dos Players                            </div>
+                        </a>
+                    </li>
+					                																																																																																								                																																		<li class="tooltip-js" data-tooltip-js="3-0">
+                        <a href="?page=rankstats"                             >
+                            <div class="sidebar-icon">
+                                <i class="zmdi zmdi-flag zmdi-hc-fw"></i>                            </div>
+                            <div class="item-name">
+                            Distribuição de Rank                            </div>
+                        </a>
+                    </li>
+					                																																		<li class="tooltip-js" data-tooltip-js="4-0">
+                        <a href="?page=adminpanel"                             >
+                            <div class="sidebar-icon">
+                                <i class="zmdi zmdi-coffee zmdi-hc-fw"></i>                            </div>
+                            <div class="item-name">
+                            Painel Administrativo                            </div>
+                        </a>
+                    </li>
+					                        </ul>
+    </section>
+</aside>
+<!-- Tooltip Block -->
+<div class="tooltip-sidebar box-button-srv-0" style="">Prata 2</div>
+<div class="tooltip-sidebar box-button-home">Página Inicial</div>
+            <div class="tooltip-sidebar box-button-0-0">
+                Discord            </div>
+            <div class="tooltip-sidebar box-button-1-0">
+                Estatísticas dos Players            </div>
+            <div class="tooltip-sidebar box-button-2-0">
+                Registrar-se            </div>
+            <div class="tooltip-sidebar box-button-3-0">
+                Distribuição de Rank            </div>
+            <div class="tooltip-sidebar box-button-4-0">
+                Painel Administrativo            </div>
+<!-- End -->
+<div id="login" class="modal-window">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="badge">Authorization</h5>
+                <a href="#" title="Закрыть" class="modal-close badge"><i class="zmdi zmdi-close zmdi-hc-fw"></i></a>
+            </div>
+            <form id="log_in" enctype="multipart/form-data" method="post">
+                <div class="login_form">
+                    <div class="input-form">
+                        <label>Login</label>
+                        <input type="text" value="" name="_login"/>
+                    </div>
+                    <div class="input-form">
+                        <label>Password</label>
+                        <input type="password" value="" name="_pass"/>
+                    </div>
+                                            <a href="?auth=login">Sign In through Steam</a>
+                                        <input class="btn no_steam" name="log_in" nam type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+</div>
+<div class=navbar>
+    <div class=logo-area>
+                <a href="//189.35.250.225:8080/"><img ondrag="return false" ondragstart="return false" src="//189.35.250.225:8080//storage/cache/img/global/logo.png"></a>
+    </div>
+    <ul class="right-area">
+        <li class="section">
+            <a href="#" class="navbar-icon">
+                <img src="storage/cache/img/icons/custom/global/translate.svg" class=svg>            </a>
+            <ul class="subsection">
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=EN'">
+                            <img src="storage/cache/img/icons/custom/flags/en.svg" class=svg> English                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=RU'">
+                            <img src="storage/cache/img/icons/custom/flags/ru.svg" class=svg> Russian                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=UA'">
+                            <img src="storage/cache/img/icons/custom/flags/ua.svg" class=svg> Ukrainian                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=LT'">
+                            <img src="storage/cache/img/icons/custom/flags/lt.svg" class=svg> Lithuanian                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=CH'">
+                            <img src="storage/cache/img/icons/custom/flags/ch.svg" class=svg> Simpl. Chinese                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=DE'">
+                            <img src="storage/cache/img/icons/custom/flags/de.svg" class=svg> Deutsch                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=RS'">
+                            <img src="storage/cache/img/icons/custom/flags/rs.svg" class=svg> Serbian                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=BA'">
+                            <img src="storage/cache/img/icons/custom/flags/ba.svg" class=svg> Bosnian                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=CRO'">
+                            <img src="storage/cache/img/icons/custom/flags/cro.svg" class=svg> Croatian                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=TR'">
+                            <img src="storage/cache/img/icons/custom/flags/tr.svg" class=svg> Turkish                        </a></li>
+                                    <li><a href="#" onclick="location.href = '//189.35.250.225:8080/?language=BR'">
+                            <img src="storage/cache/img/icons/custom/flags/br.svg" class=svg> Brazil                        </a></li>
+                            </ul>
+        </li>
+                <li class="section">
+            <a href="#" class="navbar-icon">
+                <div class="search"><i class="zmdi zmdi-search zmdi-hc-fw"></i></div>
+            </a>
+            <ul class="subsection">
+                <form enctype="multipart/form-data" method="post">
+                <div class="search_form">
+                    <div class="input-form">
+                        <label>Procurar</label>
+                        <input type="text" value="" name="_steam_id" placeholder="STEAM_1:1:390... / 7656119803..." >
+                    </div>
+                    <input class="btn no_steam" name="btn_search" type="submit" value="Encontrar">
+                </div>
+                </form>
+            </ul>
+        </li>
+                    <li class="section">
+                <a href="#" class="navbar-icon">
+                    <div class="search notification">
+                        <i class="zmdi zmdi-notifications zmdi-hc-fw"></i>                        <span id="main_notifications_badge"></span>
+                    </div>
+                </a>
+                <ul class="subsection">
+                    <div class="search_form">
+                        <ul class="main_notifications" id="main_notifications"></ul>
+                    </div>
+                </ul>
+            </li>
+                   <li class="section navbar-icon">
+                <a id="admin_idebar_right" href="javascript:void(0);" class="search">
+                    <i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i>
+                </a>
+            </li>
+            </ul>
+</div>
+<div class="global-container">
+    <div class="container-fluid">
+<div class="row">
+                        <div class="col-md-3"><div class="card plug"></div></div>
+                <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="badge">Top Players                        :: [Brasil Competitivo] MixBrasil</h5>
+                </div>
+                <div class=table-responsive>
+                    <table class="table table-hover mb-0">
+                        <thead>
+                        <tr>
+                            <th class="text-center">#</th>
+                            <th class="text-right"></th>                            <th class="text-left">Player</th>
+                            <th class="text-center">Pontos</th>
+                            <th class="text-center">Rank</th>                            <th class="text-center">K/D</th>
+                            <th class="text-center tb-time-two">Tempo de Jogo</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:1064806948&server_group=0';">
+                                <th class="text-center">1</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/22_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:1064806948&server_group=0">✪Knz</a>
+                                </th>
+                                <th class="text-center">13 219</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/18.png">
+                                </th>                                <th class="text-center">1.34</th>
+                                <th class="text-center tb-time-two">40 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:1149766823&server_group=0';">
+                                <th class="text-center">2</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/24_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:1149766823&server_group=0">Moon Wolf</a>
+                                </th>
+                                <th class="text-center">2 651</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/14.png">
+                                </th>                                <th class="text-center">2.56</th>
+                                <th class="text-center tb-time-two">10 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:1445020864&server_group=0';">
+                                <th class="text-center">3</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/23_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:1445020864&server_group=0">kleber dasirius</a>
+                                </th>
+                                <th class="text-center">1 036</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/12.png">
+                                </th>                                <th class="text-center">1.40</th>
+                                <th class="text-center tb-time-two">8 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:805028143&server_group=0';">
+                                <th class="text-center">4</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/18_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:805028143&server_group=0">Tkz1 Vac$</a>
+                                </th>
+                                <th class="text-center">796</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/11.png">
+                                </th>                                <th class="text-center">0.93</th>
+                                <th class="text-center tb-time-two">23 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:333150743&server_group=0';">
+                                <th class="text-center">5</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/11_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:333150743&server_group=0">BLKR.ins</a>
+                                </th>
+                                <th class="text-center">742</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/10.png">
+                                </th>                                <th class="text-center">1.28</th>
+                                <th class="text-center tb-time-two">6 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:1810792195&server_group=0';">
+                                <th class="text-center">6</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/25_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:1810792195&server_group=0">peew</a>
+                                </th>
+                                <th class="text-center">700</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/10.png">
+                                </th>                                <th class="text-center">1.69</th>
+                                <th class="text-center tb-time-two">5 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:595074635&server_group=0';">
+                                <th class="text-center">7</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/12_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:595074635&server_group=0">Miojo</a>
+                                </th>
+                                <th class="text-center">689</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/10.png">
+                                </th>                                <th class="text-center">1.48</th>
+                                <th class="text-center tb-time-two">4 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:63311842&server_group=0';">
+                                <th class="text-center">8</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/11_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:63311842&server_group=0">NOBRU</a>
+                                </th>
+                                <th class="text-center">594</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/10.png">
+                                </th>                                <th class="text-center">1.64</th>
+                                <th class="text-center tb-time-two">3 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:567629859&server_group=0';">
+                                <th class="text-center">9</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/22_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:567629859&server_group=0">payanezZz</a>
+                                </th>
+                                <th class="text-center">465</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/9.png">
+                                </th>                                <th class="text-center">2.65</th>
+                                <th class="text-center tb-time-two">3 h.</th>
+                            </tr>
+                                                    <tr class="pointer" onclick="location.href = '//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:966541298&server_group=0';">
+                                <th class="text-center">10</th>
+                                                                    <th class="text-right"><img class="rounded-circle" id="" data-src="storage/cache/img/avatars_random/20_xs.jpg"></th>
+                                                                <th class="text-left tb-name"><a
+                                            href="//189.35.250.225:8080/?page=profiles&profile=STEAM_0:0:966541298&server_group=0">nightdaawp</a>
+                                </th>
+                                <th class="text-center">399</th>
+                                <th class="text-center"><img
+                                            data-src="storage/cache/img/ranks/default/9.png">
+                                </th>                                <th class="text-center">0.87</th>
+                                <th class="text-center tb-time-two">12 h.</th>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+                    <div class="col-md-3"><div class="card plug"></div></div>
+            </div><div class="row">
+    <div class="col-md-4 col-fixed">
+        <div class="card">
+            <div class="card-block-big">
+                <div class="figure"></div>
+                <div class="figure_2"></div>
+                <h3>43</h3>
+                <div class="info">Total de Players</div>
+                <i class="icon-stats"><i class="zmdi zmdi-accounts-alt zmdi-hc-fw"></i></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-fixed">
+        <div class="card">
+            <div class="card-block-big">
+                <div class="figure"></div>
+                <div class="figure_2"></div>
+                <h3>13</h3>
+                <div class="info">Players nas últimas 24 horas</div>
+                <i class="icon-stats"><i class="zmdi zmdi-star zmdi-hc-fw"></i></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-fixed">
+        <div class="card">
+            <div class="card-block-big">
+                <div class="figure"></div>
+                <div class="figure_2"></div>
+                <h3>1 768</h3>
+                <div class="info">HeadShots</div>
+                <i class="icon-stats"><i class="zmdi zmdi-fire zmdi-hc-fw"></i></i>
+            </div>
+        </div>
+    </div>
+</div><script>servers.push([{"ip":"189.35.250.225:27015","fakeip":"189.35.250.225:27015"}]);</script>
+        <div class="row">
+                                                <div class="col-md-4 mon-1"><div class="card plug"><div class="x_1_invert"></div></div></div>
+                                <div class="col-md-4 mon-1">
+                    <div class=card>
+                        <div class=custom-server>
+                            <div class="data-basic">
+                                <div class="data-name" id="server-name-0">-</div>
+                                <div class="online">
+                                    <div id="online_gr-0" class="online2" style="width:0%"></div>
+                                    <div class="value" id="server-players-0"></div>
+                                </div>
+                                <div class="border_ip"></div>
+                                <div class="ip" id="server-ip-0"></div>
+                                <a class="btn_connect btn_connect_0" id="0" onclick="get_players_data(id)" href="javascript:void(0);"><i class="icon-connect zmdi zmdi-caret-right-circle zmdi-hc-fw"></i></a>
+                            </div>
+                            <img ondrag="return false" ondragstart="return false" id="server-map-image-0" src="./storage/cache/img/maps/730/-.jpg">
+                        </div>
+                    </div>
+                </div>
+                                        <div class="col-md-4 mon-1"><div class="card plug"><div class="x_1"></div></div></div>
+                    </div>
+        <div class="row">
+            <div class="col-md-12 mon-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="badge">Monitoramento Online</h5>
+                    </div>
+                    <div class=table-responsive>
+                        <table class="table table-hover mb-0">
+                            <thead>
+                            <tr>
+                                <th class="text-center">Game</th>
+                                <th class="text-left">Name</th>
+                                <th class="text-center">Players</th>
+                                <th class="text-center">Mapa</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                                            <tr class="pointer str_connect_0" id="0" onclick="get_players_data(id)">
+                                    <th class="text-center"><img id="server-tablemod-0" src="./storage/cache/img/global/null.png"></th>
+                                    <th class="text-left" id="server-tablename-0"></th>
+                                    <th class="text-center" id="server-tableplayers-0"></th>
+                                    <th class="text-center" id="server-tablemap-0"></th>
+                                </tr>
+                                                        </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="server-players-online-0" class="modal-window-server">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="badge">Informação do Servidor</h5>
+            <a title="Закрыть" id="0" onclick="close_modal(id)" href="javascript:void(0);" class="modal-close badge"><i class="zmdi zmdi-close zmdi-hc-fw"></i></a>
+        </div>
+        <div class=server_block_scroll>
+            <div class=table-responsive>
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="text-center">#</th>
+                        <th class="text-center">Player</th>
+                        <th class="text-center">Pontos</th>
+                        <th class="text-center">Tempo de Jogo</th>
+                    </tr>
+                    </thead>
+                    <tbody id="players_online_0">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="input-form">
+            <a class="btn btn_connect_now" id="connect_server_0">Junte-se</a>
+        </div>
+    </div>
+</div>
+<footer class="footer">2021 &copy; <a href="https://github.com/levelsranks/levels-ranks-web" target="_blank">Levels Ranks - Web Interface</a> #0.2.134 by <a href="https://steamcommunity.com/id/M0st1ce/" target="_blank">M0st1ce</a></footer></div></div>
+    <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="//189.35.250.225:8080/storage/assets/js/app.js"></script>
+        <script src="//189.35.250.225:8080/app/modules/module_block_main_servers_monitoring/assets/js/1.js"></script>
+  </body>
+</html>
